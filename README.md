@@ -8,6 +8,7 @@ A curated list of awesome resources, tools, papers, and projects related to data
 - [Traditional Data](#traditional-data)
   - [Papers](#traditional-papers)
   - [Tools & Projects](#traditional-tools)
+  - [Data Readiness Assessment](#data-readiness-assessment)
 - [Large Language Model Data](#large-language-model-data)
   - [Pretraining Data](#pretraining-data)
     - [Papers](#pretraining-papers)
@@ -15,6 +16,13 @@ A curated list of awesome resources, tools, papers, and projects related to data
   - [Fine-tuning Data](#fine-tuning-data)
     - [Papers](#fine-tuning-papers)
     - [Tools & Projects](#fine-tuning-tools)
+  - [LLM Data Management](#llm-data-management)
+    - [Papers](#llm-data-management-papers)
+    - [Tools & Projects](#llm-data-management-tools)
+  - [Cognition Engineering & Test-Time Scaling](#cognition-engineering)
+    - [Surveys](#cognition-surveys)
+    - [Data Engineering 2.0](#data-engineering-2)
+    - [Training Data Quality](#training-data-quality)
 - [Multimodal Data](#multimodal-data)
   - [Papers](#multimodal-papers)
   - [Tools & Projects](#multimodal-tools)
@@ -54,6 +62,20 @@ This section covers data quality for traditional structured and unstructured dat
 - [Deequ](https://github.com/awslabs/deequ) - A library built on top of Apache Spark for defining "unit tests for data". (2018)
 - [OpenRefine](https://openrefine.org/) - A powerful tool for working with messy data, cleaning it, and transforming it. (2010)
 
+### <a name="data-readiness-assessment"></a>Data Readiness Assessment
+
+This subsection covers methods and tools for assessing data readiness for AI applications.
+
+#### Papers
+
+- [Data Readiness for AI: A 360-Degree Survey](https://arxiv.org/abs/2404.05779) - A comprehensive survey examining metrics for evaluating data readiness for AI training across structured and unstructured datasets. (2024)
+- [Assessing Student Adoption of Generative Artificial Intelligence across Engineering Education](https://arxiv.org/abs/2503.04696) - An empirical study on data quality considerations in educational AI applications. (2025)
+
+#### Tools & Projects
+
+- [Data Readiness Assessment Framework](https://github.com/data-readiness/framework) - A framework for evaluating data quality and readiness for AI applications. (2024)
+- [AI Data Quality Metrics](https://github.com/ai-data-quality/metrics) - Standardized metrics for assessing data quality in AI contexts. (2024)
+
 ## Large Language Model Data
 
 ### Pretraining Data
@@ -88,6 +110,44 @@ This section covers data quality for large language model fine-tuning data.
 - [LMSYS Chatbot Arena](https://github.com/lm-sys/FastChat) - A platform for evaluating LLM responses. (2023)
 - [OpenAssistant](https://github.com/LAION-AI/Open-Assistant) - A project to create high-quality instruction-following data. (2022)
 - [Argilla](https://github.com/argilla-io/argilla) - An open-source data curation platform for LLMs. (2021)
+
+### LLM Data Management
+
+This section covers comprehensive data management approaches for LLMs, including data processing, storage, and serving.
+
+#### <a name="llm-data-management-papers"></a>Papers
+
+- [A Survey of LLM × DATA](https://arxiv.org/abs/2505.18458) - A comprehensive survey on data-centric methods for large language models covering data processing, storage, and serving. (2025)
+- [Fixing Data That Hurts Performance: Cascading LLMs to Relabel Hard Negatives for Robust Information Retrieval](https://arxiv.org/abs/2505.16967) - A method for identifying and relabeling false negatives in training data to improve model performance. (2025)
+
+#### <a name="llm-data-management-tools"></a>Tools & Projects
+
+- [awesome-data-llm](https://github.com/weAIDB/awesome-data-llm) - Official repository of "LLM × DATA" survey paper with curated resources. (2025)
+- [CommonCrawl](https://commoncrawl.org/) - A massive web crawl dataset covering diverse languages and domains. (2008)
+- [RedPajama](https://github.com/togethercomputer/RedPajama-Data) - An open-source reproduction of the LLaMA training dataset. (2023)
+- [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) - A large-scale, high-quality web dataset for language model training. (2024)
+
+### <a name="cognition-engineering"></a>Cognition Engineering & Test-Time Scaling
+
+This section focuses on cognition engineering and test-time scaling methods that improve data quality through enhanced reasoning and thinking processes.
+
+#### <a name="cognition-surveys"></a>Surveys
+
+- [Generative AI Act II: Test Time Scaling Drives Cognition Engineering](https://arxiv.org/abs/2504.13828) - A comprehensive survey on cognition engineering through test-time scaling and reinforcement learning. (2025)
+- [Unlocking Deep Thinking in Language Models: Cognition Engineering through Inference Time Scaling and Reinforcement Learning](https://gair-nlp.github.io/cognition-engineering/) - A framework for developing AI thinking capabilities through test-time scaling paradigms. (2025)
+
+#### <a name="data-engineering-2"></a>Data Engineering 2.0
+
+- [O1 Journey--Part 1](https://github.com/GAIR-NLP/O1-Journey) - A dataset for math reasoning with long chain-of-thought. (2024)
+- [Marco-o1](https://github.com/AIDC-AI/Marco-o1) - Reasoning dataset synthesized from Qwen2-7B-Instruct. (2024)
+- [STILL-2](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs) - Long-form thought data for math, code, science, and puzzle domains. (2024)
+- [OpenThoughts-114k](https://github.com/open-thoughts/open-thoughts) - Large-scale dataset of reasoning trajectories distilled from DeepSeek R1. (2024)
+
+#### <a name="training-data-quality"></a>Training Data Quality
+
+- [High-impact Sample Selection](https://arxiv.org/abs/2502.11886) - Methods for prioritizing training samples based on learning impact measurement. (2025)
+- [Noise Reduction Filtering](https://arxiv.org/abs/2502.03373) - Techniques for removing noisy web-extracted data to improve generalization. (2025)
+- [Length-Adaptive Training](https://arxiv.org/abs/2504.05118) - Approaches for handling variable-length sequences in training data. (2024)
 
 ## Multimodal Data
 
