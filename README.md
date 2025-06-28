@@ -6,42 +6,31 @@ A curated list of awesome resources, tools, papers, and projects related to data
 
 - [Introduction](#introduction)
 - [Traditional Data](#traditional-data)
-  - [Papers](#traditional-papers)
-  - [Tools & Projects](#traditional-tools)
+  - [Papers](#papers)
+  - [Tools & Projects](#tools--projects)
   - [Data Readiness Assessment](#data-readiness-assessment)
 - [Large Language Model Data](#large-language-model-data)
   - [Pretraining Data](#pretraining-data)
-    - [Papers](#pretraining-papers)
-    - [Tools & Projects](#pretraining-tools)
   - [Fine-tuning Data](#fine-tuning-data)
-    - [Papers](#fine-tuning-papers)
-    - [Tools & Projects](#fine-tuning-tools)
   - [LLM Data Management](#llm-data-management)
-    - [Papers](#llm-data-management-papers)
-    - [Tools & Projects](#llm-data-management-tools)
-  - [Cognition Engineering & Test-Time Scaling](#cognition-engineering)
-    - [Surveys](#cognition-surveys)
-    - [Data Engineering 2.0](#data-engineering-2)
-    - [Training Data Quality](#training-data-quality)
+  - [Cognition Engineering & Test-Time Scaling](#cognition-engineering--test-time-scaling)
 - [Multimodal Data](#multimodal-data)
-  - [Papers](#multimodal-papers)
-  - [Tools & Projects](#multimodal-tools)
+  - [Papers](#papers-1)
+  - [Tools & Projects](#tools--projects-1)
 - [Tabular Data](#tabular-data)
-  - [Papers](#tabular-papers)
-  - [Tools & Projects](#tabular-tools)
+  - [Papers](#papers-2)
+  - [Tools & Projects](#tools--projects-2)
 - [Time Series Data](#time-series-data)
-  - [Papers](#time-series-papers)
-  - [Tools & Projects](#time-series-tools)
+  - [Papers](#papers-3)
+  - [Tools & Projects](#tools--projects-3)
 - [Graph Data](#graph-data)
-  - [Papers](#graph-papers)
-  - [Tools & Projects](#graph-tools)
+  - [Papers](#papers-4)
+  - [Tools & Projects](#tools--projects-4)
 - [Data-Centric AI](#data-centric-ai)
-  - [Surveys](#data-centric-surveys)
+  - [Surveys](#surveys)
   - [Data Valuation](#data-valuation)
   - [Data Selection](#data-selection)
-  - [Benchmarks](#data-centric-benchmarks)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Benchmarks](#benchmarks)
 
 ## Introduction
 
@@ -51,18 +40,18 @@ Data quality is a critical aspect of any data-driven application or research. Th
 
 This section covers data quality for traditional structured and unstructured data.
 
-### <a name="traditional-papers"></a>Papers
+### Papers
 
 - [Data Cleaning: Problems and Current Approaches](https://www.researchgate.net/publication/220423285_Data_Cleaning_Problems_and_Current_Approaches) - A comprehensive overview of data cleaning approaches. (2000)
 - [A Survey on Data Quality: Classifying Poor Data](https://ieeexplore.ieee.org/document/7423672) - A survey on data quality issues and classification. (2016)
 
-### <a name="traditional-tools"></a>Tools & Projects
+### Tools & Projects
 
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - A Python framework for validating, documenting, and profiling data. (2018)
 - [Deequ](https://github.com/awslabs/deequ) - A library built on top of Apache Spark for defining "unit tests for data". (2018)
 - [OpenRefine](https://openrefine.org/) - A powerful tool for working with messy data, cleaning it, and transforming it. (2010)
 
-### <a name="data-readiness-assessment"></a>Data Readiness Assessment
+### Data Readiness Assessment
 
 This subsection covers methods and tools for assessing data readiness for AI applications.
 
@@ -82,13 +71,13 @@ This subsection covers methods and tools for assessing data readiness for AI app
 
 This section covers data quality for large language model pretraining data.
 
-#### <a name="pretraining-papers"></a>Papers
+#### Papers
 
 - [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027) - A large-scale curated dataset for language model pretraining. (2021)
 - [Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets](https://arxiv.org/abs/2103.12028) - An audit of the quality of web-crawled multilingual datasets. (2021)
 - [Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus](https://arxiv.org/abs/2104.08758) - Documentation of the C4 dataset. (2021)
 
-#### <a name="pretraining-tools"></a>Tools & Projects
+#### Tools & Projects
 
 - [Dolma](https://github.com/allenai/dolma) - A framework for curating and documenting large language model pretraining data. (2023)
 - [Text Data Cleaner](https://github.com/ChenghaoMou/text-data-cleaner) - A tool for cleaning text data for language model pretraining. (2022)
@@ -99,13 +88,13 @@ This section covers data quality for large language model pretraining data.
 
 This section covers data quality for large language model fine-tuning data.
 
-#### <a name="fine-tuning-papers"></a>Papers
+#### Papers
 
 - [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) - The RLHF paper from Anthropic. (2022)
 - [Quality Not Quantity: On the Interaction between Dataset Design and Robustness of CLIP](https://arxiv.org/abs/2112.07295) - A study on the importance of data quality over quantity. (2021)
 - [Data Quality for Machine Learning Tasks](https://arxiv.org/abs/2108.02711) - A survey on data quality for machine learning. (2021)
 
-#### <a name="fine-tuning-tools"></a>Tools & Projects
+#### Tools & Projects
 
 - [LMSYS Chatbot Arena](https://github.com/lm-sys/FastChat) - A platform for evaluating LLM responses. (2023)
 - [OpenAssistant](https://github.com/LAION-AI/Open-Assistant) - A project to create high-quality instruction-following data. (2022)
@@ -115,35 +104,35 @@ This section covers data quality for large language model fine-tuning data.
 
 This section covers comprehensive data management approaches for LLMs, including data processing, storage, and serving.
 
-#### <a name="llm-data-management-papers"></a>Papers
+#### Papers
 
 - [A Survey of LLM × DATA](https://arxiv.org/abs/2505.18458) - A comprehensive survey on data-centric methods for large language models covering data processing, storage, and serving. (2025)
 - [Fixing Data That Hurts Performance: Cascading LLMs to Relabel Hard Negatives for Robust Information Retrieval](https://arxiv.org/abs/2505.16967) - A method for identifying and relabeling false negatives in training data to improve model performance. (2025)
 
-#### <a name="llm-data-management-tools"></a>Tools & Projects
+#### Tools & Projects
 
 - [awesome-data-llm](https://github.com/weAIDB/awesome-data-llm) - Official repository of "LLM × DATA" survey paper with curated resources. (2025)
 - [CommonCrawl](https://commoncrawl.org/) - A massive web crawl dataset covering diverse languages and domains. (2008)
 - [RedPajama](https://github.com/togethercomputer/RedPajama-Data) - An open-source reproduction of the LLaMA training dataset. (2023)
 - [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) - A large-scale, high-quality web dataset for language model training. (2024)
 
-### <a name="cognition-engineering"></a>Cognition Engineering & Test-Time Scaling
+### Cognition Engineering & Test-Time Scaling
 
 This section focuses on cognition engineering and test-time scaling methods that improve data quality through enhanced reasoning and thinking processes.
 
-#### <a name="cognition-surveys"></a>Surveys
+#### Surveys
 
 - [Generative AI Act II: Test Time Scaling Drives Cognition Engineering](https://arxiv.org/abs/2504.13828) - A comprehensive survey on cognition engineering through test-time scaling and reinforcement learning. (2025)
 - [Unlocking Deep Thinking in Language Models: Cognition Engineering through Inference Time Scaling and Reinforcement Learning](https://gair-nlp.github.io/cognition-engineering/) - A framework for developing AI thinking capabilities through test-time scaling paradigms. (2025)
 
-#### <a name="data-engineering-2"></a>Data Engineering 2.0
+#### Data Engineering 2.0
 
 - [O1 Journey--Part 1](https://github.com/GAIR-NLP/O1-Journey) - A dataset for math reasoning with long chain-of-thought. (2024)
 - [Marco-o1](https://github.com/AIDC-AI/Marco-o1) - Reasoning dataset synthesized from Qwen2-7B-Instruct. (2024)
 - [STILL-2](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs) - Long-form thought data for math, code, science, and puzzle domains. (2024)
 - [OpenThoughts-114k](https://github.com/open-thoughts/open-thoughts) - Large-scale dataset of reasoning trajectories distilled from DeepSeek R1. (2024)
 
-#### <a name="training-data-quality"></a>Training Data Quality
+#### Training Data Quality
 
 - [High-impact Sample Selection](https://arxiv.org/abs/2502.11886) - Methods for prioritizing training samples based on learning impact measurement. (2025)
 - [Noise Reduction Filtering](https://arxiv.org/abs/2502.03373) - Techniques for removing noisy web-extracted data to improve generalization. (2025)
@@ -153,12 +142,12 @@ This section focuses on cognition engineering and test-time scaling methods that
 
 This section covers data quality for multimodal data, including image-text pairs, video, and audio.
 
-### <a name="multimodal-papers"></a>Papers
+### Papers
 
 - [LAION-5B: An open large-scale dataset for training next generation image-text models](https://arxiv.org/abs/2210.08402) - A large-scale dataset of image-text pairs. (2022)
 - [DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108) - A benchmark for evaluating data curation strategies. (2023)
 
-### <a name="multimodal-tools"></a>Tools & Projects
+### Tools & Projects
 
 - [CLIP-Benchmark](https://github.com/LAION-AI/CLIP-Benchmark) - A benchmark for evaluating CLIP models. (2021)
 - [img2dataset](https://github.com/rom1504/img2dataset) - A tool for efficiently downloading and processing image-text datasets. (2021)
@@ -167,12 +156,12 @@ This section covers data quality for multimodal data, including image-text pairs
 
 This section covers data quality for tabular data.
 
-### <a name="tabular-papers"></a>Papers
+### Papers
 
 - [Automating Data Quality Validation for Dynamic Data Ingestion](https://ieeexplore.ieee.org/document/8731379) - A framework for automating data quality validation. (2019)
 - [A Survey on Data Quality for Machine Learning in Practice](https://arxiv.org/abs/2103.05251) - A survey on data quality issues in machine learning. (2021)
 
-### <a name="tabular-tools"></a>Tools & Projects
+### Tools & Projects
 
 - [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - A tool for generating profile reports from pandas DataFrames. (2016)
 - [DataProfiler](https://github.com/capitalone/DataProfiler) - A Python library for data profiling and data quality validation. (2021)
@@ -181,12 +170,12 @@ This section covers data quality for tabular data.
 
 This section covers data quality for time series data.
 
-### <a name="time-series-papers"></a>Papers
+### Papers
 
 - [Cleaning Time Series Data: Current Status, Challenges, and Opportunities](https://arxiv.org/abs/2201.05562) - A survey on cleaning time series data. (2022)
 - [Time Series Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2002.12478) - A survey on time series data augmentation. (2020)
 
-### <a name="time-series-tools"></a>Tools & Projects
+### Tools & Projects
 
 - [Darts](https://github.com/unit8co/darts) - A Python library for time series forecasting and anomaly detection. (2020)
 - [tslearn](https://github.com/tslearn-team/tslearn) - A machine learning toolkit dedicated to time series data. (2017)
@@ -195,12 +184,12 @@ This section covers data quality for time series data.
 
 This section covers data quality for graph data.
 
-### <a name="graph-papers"></a>Papers
+### Papers
 
 - [A Survey on Graph Cleaning Methods for Noise and Errors in Graph Data](https://arxiv.org/abs/2201.00443) - A survey on graph cleaning methods. (2022)
 - [Graph Data Quality: A Survey from the Database Perspective](https://arxiv.org/abs/2201.05236) - A survey on graph data quality from a database perspective. (2022)
 
-### <a name="graph-tools"></a>Tools & Projects
+### Tools & Projects
 
 - [DGL](https://github.com/dmlc/dgl) - A Python package for deep learning on graphs. (2018)
 - [NetworkX](https://github.com/networkx/networkx) - A Python package for the creation, manipulation, and study of complex networks. (2008)
@@ -209,7 +198,7 @@ This section covers data quality for graph data.
 
 This section focuses on data quality management for machine learning models, following the Data-Centric AI paradigm. It includes papers and resources related to data valuation, data selection, and benchmarks for evaluating data quality in ML pipelines.
 
-### <a name="data-centric-surveys"></a>Surveys
+### Surveys
 
 - [Data Quality Awareness: A Journey from Traditional Data Management to Data Science Systems](https://arxiv.org/pdf/2411.03007) - A comprehensive survey on data quality awareness across traditional data management and modern data science systems. (2024)
 - [A Survey on Data Selection for Language Models](https://arxiv.org/pdf/2402.16827.pdf) - A survey focusing on data selection techniques for language models. (2024)
@@ -221,7 +210,7 @@ This section focuses on data quality management for machine learning models, fol
 - [Data Valuation in Machine Learning: "Ingredients", Strategies, and Open Challenges](https://www.ijcai.org/proceedings/2022/0782.pdf) - An IJCAI paper on data valuation methods in machine learning. (2022)
 - [Explanation-Based Human Debugging of NLP Models: A Survey](https://aclanthology.org/2021.tacl-1.90.pdf) - A TACL survey on explanation-based debugging of NLP models. (2021)
 
-### <a name="data-valuation"></a>Data Valuation
+### Data Valuation
 
 - [Data Shapley: Equitable Valuation of Data for Machine Learning](https://proceedings.mlr.press/v97/ghorbani19c/ghorbani19c.pdf) - An ICML paper introducing the Data Shapley method for valuing training data. (2019)
 - [Efficient task-specific data valuation for nearest neighbor algorithms](https://vldb.org/pvldb/vol12/p1610-jia.pdf) - A VLDB paper on efficient data valuation for nearest neighbor algorithms. (2019)
@@ -229,7 +218,7 @@ This section focuses on data quality management for machine learning models, fol
 - [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/pdf/1703.04730.pdf) - An ICML paper introducing influence functions for understanding model predictions. (2017)
 - [Data Cleansing for Models Trained with SGD](https://proceedings.neurips.cc/paper%5Ffiles/paper/2019/file/5f14615696649541a025d3d0f8e0447f-Paper.pdf) - A NeurIPS paper on data cleansing for SGD-trained models. (2019)
 
-### <a name="data-selection"></a>Data Selection
+### Data Selection
 
 - [Modyn: Data-Centric Machine Learning Pipeline Orchestration](https://arxiv.org/pdf/2312.06254) - A SIGMOD paper on pipeline orchestration for data-centric machine learning. (2023)
 - [Data Selection via Optimal Control for Language Models](https://openreview.net/pdf?id=dhAL5fy8wS) - An ICLR paper on optimal control methods for data selection in language models. (2024)
@@ -237,7 +226,7 @@ This section focuses on data quality management for machine learning models, fol
 - [Adaptive Data Optimization: Dynamic Sample Selection with Scaling Laws](https://openreview.net/pdf?id=aqok1UX7Z1) - An ICLR paper on dynamic sample selection using scaling laws. (2024)
 - [Selection via proxy: Efficient data selection for deep learning](https://openreview.net/pdf?id=HJg2b0VYDr) - An ICLR paper on efficient data selection using proxy models. (2020)
 
-### <a name="data-centric-benchmarks"></a>Benchmarks
+### Benchmarks
 
 - [DataPerf: Benchmarks for Data-Centric AI Development](https://openreview.net/pdf?id=LaFKTgrZMG) - A NeurIPS paper introducing benchmarks for data-centric AI development. (2023)
 - [OpenDataVal: a Unified Benchmark for Data Valuation](https://openreview.net/pdf?id=eEK99egXeB) - A NeurIPS paper on a unified benchmark for data valuation. (2023)
@@ -245,10 +234,4 @@ This section focuses on data quality management for machine learning models, fol
 - [Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias](https://proceedings.neurips.cc/paper%5Ffiles/paper/2023/file/ae9500c4f5607caf2eff033c67daa9d7-Paper-Datasets%5Fand%5FBenchmarks.pdf) - A NeurIPS paper on using LLMs as training data generators. (2023)
 - [dcbench: A Benchmark for Data-Centric AI Systems](https://dl.acm.org/doi/pdf/10.1145/3533028.3533310) - A DEEM paper introducing a benchmark for data-centric AI systems. (2022)
 
-## Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
