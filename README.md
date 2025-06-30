@@ -1,6 +1,6 @@
 # Awesome Data Quality [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome resources, tools, papers, and projects related to data quality across various data types. This repository aims to be a comprehensive reference for researchers and practitioners working with data quality in different domains.
+Resources, tools, papers, and projects for ensuring data reliability and effectiveness across traditional data, LLM pretraining/fine-tuning data, multimodal data, and more.
 
 ## Contents
 
