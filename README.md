@@ -84,7 +84,7 @@ This section covers data quality for large language model pretraining data.
 - [Dolma](https://github.com/allenai/dolma) - A framework for curating and documenting large language model pretraining data. (2023)
 - [Text Data Cleaner](https://github.com/ChenghaoMou/text-data-cleaner) - A tool for cleaning text data for language model pretraining. (2022)
 - [CCNet](https://github.com/facebookresearch/cc_net) - Tools for downloading and filtering CommonCrawl data. (2020)
-- [Dingo](https://github.com/DataEval/dingo) - A comprehensive data quality evaluation tool supporting multiple data sources, types, and modalities. (2024)
+- [Dingo](https://github.com/MigoXLab/dingo) - A comprehensive AI data quality evaluation tool supporting multiple data sources, types, and modalities. (2024)
 
 ### Fine-tuning Data
 

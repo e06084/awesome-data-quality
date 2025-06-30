@@ -85,7 +85,7 @@
 - [Dolma](https://github.com/allenai/dolma) - 用于策划和记录大语言模型预训练数据的框架。(2023)
 - [文本数据清洗器](https://github.com/ChenghaoMou/text-data-cleaner) - 用于清洗语言模型预训练文本数据的工具。(2022)
 - [CCNet](https://github.com/facebookresearch/cc_net) - 下载和过滤CommonCrawl数据的工具。(2020)
-- [Dingo](https://github.com/DataEval/dingo) - 支持多种数据源、类型和模态的综合数据质量评估工具。(2024)
+- [Dingo](https://github.com/MigoXLab/dingo) - 支持多种数据源、类型和模态的综合数据质量评估工具。(2024)
 
 ### 微调数据
 

@@ -84,7 +84,7 @@
 - [Dolma](https://github.com/allenai/dolma) - 大規模言語モデル事前訓練データのキュレーションと文書化のためのフレームワーク。(2023)
 - [Text Data Cleaner](https://github.com/ChenghaoMou/text-data-cleaner) - 言語モデル事前訓練用テキストデータクリーニングツール。(2022)
 - [CCNet](https://github.com/facebookresearch/cc_net) - CommonCrawlデータのダウンロードとフィルタリングツール。(2020)
-- [Dingo](https://github.com/DataEval/dingo) - 複数のデータソース、タイプ、モダリティをサポートする包括的データ品質評価ツール。(2024)
+- [Dingo](https://github.com/MigoXLab/dingo) - 複数のデータソース、タイプ、モダリティをサポートする包括的データ品質評価ツール。(2024)
 
 ### ファインチューニングデータ
 
