@@ -76,6 +76,8 @@ This section covers data quality for large language model pretraining data.
 - [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027) - A large-scale curated dataset for language model pretraining. (2021)
 - [Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets](https://arxiv.org/abs/2103.12028) - An audit of the quality of web-crawled multilingual datasets. (2021)
 - [Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus](https://arxiv.org/abs/2104.08758) - Documentation of the C4 dataset. (2021)
+- [Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2506.04689) - REWire method for recycling and improving low-quality web documents through guided rewriting, addressing the "data wall" problem in LLM pretraining. (2025)
+- [Assessing the Role of Data Quality in Training Bilingual Language Models](https://arxiv.org/abs/2506.12966) - A study revealing that unequal data quality is a major driver of performance degradation in bilingual settings, with a practical data filtering strategy for multilingual models. (2025)
 
 #### Tools & Projects
 
