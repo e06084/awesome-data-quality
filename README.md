@@ -50,6 +50,12 @@ This section covers data quality for traditional structured and unstructured dat
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - A Python framework for validating, documenting, and profiling data. (2018)
 - [Deequ](https://github.com/awslabs/deequ) - A library built on top of Apache Spark for defining "unit tests for data". (2018)
 - [OpenRefine](https://openrefine.org/) - A powerful tool for working with messy data, cleaning it, and transforming it. (2010)
+- [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - Generates profile reports from pandas DataFrames. (2016)
+- [DataProfiler](https://github.com/capitalone/DataProfiler) - A Python library for automated data profiling. (2021)
+- [PyDeequ](https://github.com/awslabs/python-deequ) - Python API for Deequ, enabling "unit tests for data". (2020)
+- [Evidently](https://github.com/evidentlyai/evidently) - An open-source ML monitoring framework for data drift detection. (2021)
+- [TensorFlow Data Validation (TFDV)](https://www.tensorflow.org/tfx/data_validation/get_started) - A library for exploring and validating ML data at scale. (2018)
+- [Deepchecks](https://github.com/deepchecks/deepchecks) - A Python package for validating ML models and data. (2021)
 
 ### Data Readiness Assessment
 
@@ -202,6 +208,7 @@ This section focuses on data quality management for machine learning models, fol
 
 ### Surveys
 
+- [A Survey on Data Quality Dimensions and Tools for Machine Learning](https://arxiv.org/pdf/2406.19614) - A comprehensive survey reviewing 17 data quality tools for ML applications. [GitHub resource](https://github.com/haihua0913/awesome-dq4ml). (2024)
 - [Data Quality Awareness: A Journey from Traditional Data Management to Data Science Systems](https://arxiv.org/pdf/2411.03007) - A comprehensive survey on data quality awareness across traditional data management and modern data science systems. (2024)
 - [A Survey on Data Selection for Language Models](https://arxiv.org/pdf/2402.16827.pdf) - A survey focusing on data selection techniques for language models. (2024)
 - [Advances, challenges and opportunities in creating data for trustworthy AI](https://www.nature.com/articles/s42256-022-00516-1) - A Nature Machine Intelligence paper discussing the challenges and opportunities in creating high-quality data for AI. (2022)

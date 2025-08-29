@@ -51,6 +51,12 @@
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - 用于验证、记录和分析数据的Python框架。(2018)
 - [Deequ](https://github.com/awslabs/deequ) - 基于Apache Spark构建的库，用于定义"数据单元测试"。(2018)
 - [OpenRefine](https://openrefine.org/) - 处理混乱数据、清洗和转换数据的强大工具。(2010)
+- [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - 从pandas DataFrame生成概要报告。(2016)
+- [DataProfiler](https://github.com/capitalone/DataProfiler) - 用于自动化数据分析的Python库。(2021)
+- [PyDeequ](https://github.com/awslabs/python-deequ) - Deequ的Python API，支持"数据单元测试"。(2020)
+- [Evidently](https://github.com/evidentlyai/evidently) - 用于数据漂移检测的开源ML监控框架。(2021)
+- [TensorFlow Data Validation (TFDV)](https://www.tensorflow.org/tfx/data_validation/get_started) - 大规模探索和验证ML数据的库。(2018)
+- [Deepchecks](https://github.com/deepchecks/deepchecks) - 用于验证ML模型和数据的Python包。(2021)
 
 ### 数据准备度评估
 
@@ -203,6 +209,7 @@
 
 ### 综述
 
+- [机器学习数据质量维度和工具调查](https://arxiv.org/pdf/2406.19614) - 全面调查ML应用中的17种数据质量工具。[GitHub资源](https://github.com/haihua0913/awesome-dq4ml)。(2024)
 - [数据质量意识：从传统数据管理到数据科学系统的旅程](https://arxiv.org/pdf/2411.03007) - 跨传统数据管理和现代数据科学系统的数据质量意识综合调查。(2024)
 - [语言模型数据选择调查](https://arxiv.org/pdf/2402.16827.pdf) - 专注于语言模型数据选择技术的调查。(2024)
 - [创建可信AI数据的进展、挑战和机遇](https://www.nature.com/articles/s42256-022-00516-1) - Nature Machine Intelligence论文，讨论为AI创建高质量数据的挑战和机遇。(2022)

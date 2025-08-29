@@ -50,6 +50,12 @@
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - データの検証、文書化、プロファイリングのためのPythonフレームワーク。(2018)
 - [Deequ](https://github.com/awslabs/deequ) - Apache Spark上に構築された「データのユニットテスト」を定義するためのライブラリ。(2018)
 - [OpenRefine](https://openrefine.org/) - 乱雑なデータを扱い、クリーニングし、変換するための強力なツール。(2010)
+- [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - pandas DataFrameからプロファイルレポートを生成。(2016)
+- [DataProfiler](https://github.com/capitalone/DataProfiler) - 自動データプロファイリングのためのPythonライブラリ。(2021)
+- [PyDeequ](https://github.com/awslabs/python-deequ) - Deequ のPython API、「データのユニットテスト」を可能に。(2020)
+- [Evidently](https://github.com/evidentlyai/evidently) - データドリフト検出のためのオープンソースML監視フレームワーク。(2021)
+- [TensorFlow Data Validation (TFDV)](https://www.tensorflow.org/tfx/data_validation/get_started) - 大規模でMLデータを探索・検証するライブラリ。(2018)
+- [Deepchecks](https://github.com/deepchecks/deepchecks) - MLモデルとデータを検証するPythonパッケージ。(2021)
 
 ### データ準備度評価
 
@@ -202,6 +208,7 @@
 
 ### サーベイ
 
+- [機械学習のためのデータ品質次元とツールに関する調査](https://arxiv.org/pdf/2406.19614) - MLアプリケーションの17のデータ品質ツールに関する包括的調査。[GitHubリソース](https://github.com/haihua0913/awesome-dq4ml)。(2024)
 - [データ品質意識：従来データ管理からデータサイエンスシステムへの旅路](https://arxiv.org/pdf/2411.03007) - 従来データ管理と現代データサイエンスシステムにわたるデータ品質意識の包括的調査。(2024)
 - [言語モデルのデータ選択調査](https://arxiv.org/pdf/2402.16827.pdf) - 言語モデルのデータ選択技術に焦点を当てた調査。(2024)
 - [信頼できるAI用データ作成の進歩、課題、機会](https://www.nature.com/articles/s42256-022-00516-1) - AI用高品質データ作成の課題と機会を議論するNature Machine Intelligence論文。(2022)
